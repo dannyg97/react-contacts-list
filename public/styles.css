@@ -1,0 +1,43 @@
+html,
+body {
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(to bottom right, #b9ddf6, #ebc7ec);
+  /* background-image: url(https://wallpaperplay.com/walls/full/7/1/9/118491.jpg); */
+  background-position: top center;
+  background-size: cover;
+  overflow: visible;
+}
+
+header {
+  padding-top: 2%;
+  height: 100vh;
+}
+
+#container {
+  background-color: white;
+  padding: 1% 1% 1% 1%;
+  border-radius: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+@media screen and (max-width: 1000px) {
+  #container {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 1.5em;
+  font-family: Roboto;
+  padding-left: 18.5px;
+  text-align: left;
+}
+
+br {
+  padding-bottom: 2px;
+}
